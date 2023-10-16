@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 char *perform_sub_specs(char *temp, printh_t *help_s);
 /**

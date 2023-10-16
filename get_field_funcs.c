@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 /**
  * get_width_precision - gets the width and precision for a format string

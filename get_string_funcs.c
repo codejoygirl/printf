@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #define NULL 0
 /**
  * get_string_func - gets a pointer to a function
