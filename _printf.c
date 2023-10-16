@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 int print_helper(printh_t *help_s, va_list args);
 printh_t *init_help_s(const char *, va_list args);
