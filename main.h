@@ -8,9 +8,9 @@
 #define BUFF_SIZE 1024
 
 /* FLAGS */
-#define F_MINUS 1 //This flag is typically used to indicate that a field should be left_justified
-#define F_PLUS 2 // This flag often used to indicate that a positive number should displayed with a plus sign
-#define F_ZERO 4 // This is used to indicate that a field should be zero padded
+#define F_MINUS 1 
+#define F_PLUS 2 
+#define F_ZERO 4 
 #define F_HASH 8
 #define F_SPACE 16
 
@@ -19,11 +19,11 @@
 #define S_SHORT 1
 
 /**
- *  * struct fmt - Struct op
- *   *
- *    * @fmt: The format.
- *     * @fn: The function associated.
- *      */
+ * struct fmt - Struct op
+ * 
+ * @fmt: The format.
+ * @fn: The function associated.
+ */
 struct fmt
 {
 		char fmt;
@@ -32,11 +32,11 @@ struct fmt
 
 
 /**
- *  * typedef struct fmt fmt_t - Struct op
- *   *
- *    * @fmt: The format.
- *     * @fm_t: The function associated.
- *      */
+ * typedef struct fmt fmt_t - Struct op
+ * 
+ * @fmt: The format.
+ * @fm_t: The function associated.
+ */
 typedef struct fmt fmt_t;
 
 int _printf(const char *format, ...);
