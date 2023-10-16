@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strlen - gets length of string, not including null byte
